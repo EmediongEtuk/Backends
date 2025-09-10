@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",   # Vite dev server
-    "http://localhost:64146",  # VS 2022 dev server
+    "https://backends-1lol-ljcfyz51m-emediongetuks-projects.vercel.app",  # VS 2022 dev server
 ]
 
 # Internationalization
