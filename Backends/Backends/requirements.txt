@@ -1,0 +1,6 @@
+Django>=4.2,<5.0
+djangorestframework>=3.14
+gunicorn>=21.2.0
+psycopg2-binary>=2.9.7   # if you use PostgreSQL
+django-cors-headers>=4.3.0
+python-dotenv>=1.0.0      # if you use .env files for environment variables
