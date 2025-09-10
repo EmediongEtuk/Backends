@@ -4,8 +4,8 @@ import TripForm from "./components/TripForm";
 import MapView from "./components/MapView";
 import LogSheet from "./components/LogSheet";
 import Showtrips from "./components/Showtrips";
-import LogSheetchart from "./components/LogSheetChart";
-import { generateLogs } from "./api";
+
+
 import type { Trip, DailyLog } from "./types";
 
 function App() {
@@ -13,12 +13,7 @@ function App() {
     const [logs, setLogs] = useState<DailyLog[]>([]);
     const navigate = useNavigate();
 
-    const handleGenerateLogs = async () => {
-        if (trip) {
-            const res = await generateLogs(trip.id);
-            setLogs(res.data);
-        }
-    };
+  
 
     return (
         <div className="container py-4">
